@@ -399,3 +399,87 @@ FOR SAFE COMPLETION OF ALL PROJECTS.
 ### 7. Output Screenshots
 
 OUTPUT-1 (Deadline compromised,Clash of priority,Safe sequence exists)
+
+![](/Output_image/output(1).png)
+
+![](/Output_image/output(2).png)
+
+![](/Output_image/output(3).png)
+
+![](/Output_image/output(4).png)
+
+![](/Output_image/output(5).png)
+
+OUTPUT-2 (No Deadline issue, No Clash of priority,Safe sequence does not exist)
+
+![](/Output_image/output(6).png)
+
+![](/Output_image/output(7).png)
+
+![](/Output_image/output(8).png)
+
+![](/Output_image/output(9).png)
+
+
+### 8. Conclusion
+
+The proposed model is highly recommended as it successfully implements all the ideas that
+were initially put forth. The main purpose was to find out order in which a group of roads are
+mended or constructed so that within short time and correct resources, the roads are dealt
+with, without any ambiguity, prioritizing the important ones over the others. So in this way
+we get an ideal sequence for a large set of construction processes ongoing in the entire
+country which would not have been possible to deal with manually .The designed model is
+also able to find the most profitable route for the road construction whose map was given to
+us. By applying dijkstra algorithm to this map we were able to find the profitable route for
+construction .The model is also able to checks the safe sequence based on the data available
+to the authorities, whereby it says if the certain available resources is enough for the safe
+mending of all the given roads.
+
+
+Now we discuss that The reason to implement Priority Scheduling over the other methods is
+to ensure that the correct purpose is met and solved. In the given scenario, using other
+efficient algorithms like Shortest Job First is not feasible because the prior knowledge of
+every parameter is not sometimes possible because continuous damage of various other roads
+is possible in real life, and hence they will keep adding to the list making it impossible for
+roads of higher priorities to get completed. Also, the interruption of a going on task and
+resuming of others, while resuming the first one later is not possible in this scenario because
+an important road cannot wait forever once mending it has been started. The traffic and utility
+of that particular road does not allow it to wait for others. Hence, the best possible algorithm
+for the implementation was Priority Scheduling.
+
+
+### 9. References
+
+1- Mohd Shoaib and Mohd Zeeshan Farooqui, A Comparative Review of CPU
+Scheduling Algorithms, Proceedings of National Conference on Recent Trends in
+Parallel Computing (RTPC - 2014), NOVEMBER 2014
+
+2- Neetu Goel ,Dr. R.B. Garg,A Comparative Study of CPU Scheduling Algorithms,
+International Journal of Graphics & Image Processing IJGIP [ VOL-2 , Issue-4],
+November 2012
+
+3- Nishtha Kesswani, Dinesh Gopalani, Design and Implementation of Multi
+parameter Dijkstra’s Algorithm: A Shortest path algorithm for real road networks.
+International Journal of Advances in Engineering and Research [Volume 2, Issue
+3], September 2011
+
+4- Maria P. Fanti,Bruno Maione,Saverio Mascolo,Biago Turchiano, Performance of
+deadlock avoidance algorithms in flexible manufacturing systems. Journal of
+Manufacturing Systems(Elsevier) [Volume 15, Issue 3], 1996
+
+5- Dhiraj Gupta, V.K Gupta ,Approaches for Deadlock Detection and Deadlock
+Prevention for Distributed Systems, Res. J. Recent Sci., Volume 1, Issue (ISC-
+2011),2011
+
+6- Shweta Jain , Dr. Saurabh Jain, A Review Study on the CPU Scheduling
+Algorithms, International Journal of Advanced Research in Computer and
+Communication Engineering IJARCCE [Vol. 5, Issue 8], AUGUST 2016
+
+7- Research on the optimization of Dijkstra’s Algorithm and its application,
+International Journal of Science, Arjun RK,Pooja Reddy,Shama,M.Yamuna,Technology
+& Management IJSTM [Vol. 4, Issue 1], APRIL 2015
+
+
+### Our Team
+
+Pilla Vaishno Mohan, Mateen Jamal, Anant Tiwari and Ayush Sharma
